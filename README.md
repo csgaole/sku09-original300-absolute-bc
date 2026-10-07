@@ -12,7 +12,7 @@ Independent server-local Git repository containing the MuJoCo sorting simulation
 - `requirements-lock.txt`: actual source environment package versions.
 - `provenance`: original training source retained for reference; cached training inputs and a training-resume checkpoint are not part of this evaluation repository.
 
-Binary payloads are physically present and independently copied in this checkout. Git excludes HDF5 and model binaries; a plain Git clone alone does not transport these payloads. Transfer the complete repository directory and verify the manifest. No remote repository has been published.
+Binary payloads are physically present, independently copied, and tracked in Git together with their SHA-256 manifest. This server-local repository is about 2.6 GB before Git storage; no remote repository has been published.
 
 ## Runtime
 Current verified interpreter: `/data02/kemove/sku09-bc-migration/env/bin/python`. Source, simulation assets, demonstrations and checkpoint resolve within this repository; the Python environment is shared. For a separate machine, install `requirements-lock.txt` in a compatible CUDA environment.

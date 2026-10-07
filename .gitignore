@@ -1,7 +1,4 @@
 __pycache__/
 *.pyc
-data/episodes/
-models/*.pt
-assets/*.pt
 reports/closed_loop/
 work/
