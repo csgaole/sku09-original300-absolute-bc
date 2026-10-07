@@ -28,3 +28,6 @@ Policy observations: three RGB cameras and measured 28-dimensional proprioceptio
 Success requires label-up >0.98, parcel bottom >0.79 m, linear speed <0.03 m/s, angular speed <0.15 rad/s for the final 200 ms, and no bottom <0.74 m during the episode. Wall-clock inference latency is recorded; simulation correctness does not imply real-time deployability.
 
 Source historical result: 98/100 with this exact checkpoint and sampler. New migration results appear in `reports/closed_loop/report.json`.
+
+## Verified migration result
+Historical 100 conditions: 98/100; fresh 100 conditions: 98/100. Historical per-episode success and failure reasons match source exactly (zero mismatches). Both groups: zero drops, two wrong-face failures. Median action-chunk inference 107 ms, P95 109 ms, exceeding the 33.3 ms camera/chunk interval: current multi-step sampling is not real-time at 30 Hz.

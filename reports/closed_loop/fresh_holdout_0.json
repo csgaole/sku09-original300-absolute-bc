@@ -1,0 +1,24 @@
+{
+  "action_semantics": "absolute_joint_target_v1",
+  "position_half_range_m": 0.005,
+  "yaw_half_range_deg": 2.0,
+  "sampler": "upstream",
+  "successes": 25,
+  "episodes": 25,
+  "success_rate": 1.0,
+  "wilson95": [
+    0.8668077490609579,
+    1.0
+  ],
+  "checkpoint_sha256": "c899a348be831018b1903399e2ea858e130202f7bc2038408f8606e3387d908a",
+  "checkpoint_epoch": 252,
+  "checkpoint_step": 7308,
+  "validation_loss": 0.013307319022715092,
+  "seed_start": 910000,
+  "failure_counts": {
+    "drop": 0,
+    "wrong_face": 0,
+    "unsettled": 0
+  },
+  "device": "NVIDIA A100-SXM4-80GB"
+}

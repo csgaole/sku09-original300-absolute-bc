@@ -1,0 +1,49 @@
+{
+  "complete": true,
+  "root": "/data02/kemove/sku09-original300-absolute-bc",
+  "checkpoint_sha256": "c899a348be831018b1903399e2ea858e130202f7bc2038408f8606e3387d908a",
+  "results": {
+    "reproduction": {
+      "successes": 98,
+      "episodes": 100,
+      "success_rate": 0.98,
+      "wilson95": [
+        0.9299882092714581,
+        0.9944980324498375
+      ],
+      "failure_counts": {
+        "drop": 0,
+        "wrong_face": 2,
+        "unsettled": 0
+      },
+      "failed_seeds": [
+        880037,
+        880095
+      ],
+      "inference_latency_median_s": 0.10719416104257107,
+      "inference_latency_p95_s": 0.10903698694892228
+    },
+    "fresh_holdout": {
+      "successes": 98,
+      "episodes": 100,
+      "success_rate": 0.98,
+      "wilson95": [
+        0.9299882092714581,
+        0.9944980324498375
+      ],
+      "failure_counts": {
+        "drop": 0,
+        "wrong_face": 2,
+        "unsettled": 0
+      },
+      "failed_seeds": [
+        910087,
+        910088
+      ],
+      "inference_latency_median_s": 0.10714293387718499,
+      "inference_latency_p95_s": 0.10904485103674233
+    }
+  },
+  "reproduction_outcome_mismatches": [],
+  "elapsed_s": 399.398734331131
+}

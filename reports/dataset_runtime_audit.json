@@ -1,0 +1,20 @@
+{
+  "episodes": 300,
+  "categories": {
+    "boundary": 90,
+    "regular": 150,
+    "recovery": 60
+  },
+  "successful_demonstrations": 300,
+  "split_counts": {
+    "train": 240,
+    "validation": 30,
+    "test": 30
+  },
+  "runtime_modules": {
+    "evaluate_bc": "/data02/kemove/sku09-original300-absolute-bc/src/evaluate_bc.py",
+    "bc_model": "/data02/kemove/sku09-original300-absolute-bc/src/bc_model.py",
+    "logistics_sorting_sim": "/data02/kemove/sku09-original300-absolute-bc/vendor/logistics-sorting-sim/src/logistics_sorting_sim/__init__.py",
+    "rl_100.model.diffusion.conditional_unet1d": "/data02/kemove/sku09-original300-absolute-bc/vendor/rl100/rl_100/model/diffusion/conditional_unet1d.py"
+  }
+}
