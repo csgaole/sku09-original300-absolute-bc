@@ -1,0 +1,20 @@
+{
+  "checkpoint_sha256": "c899a348be831018b1903399e2ea858e130202f7bc2038408f8606e3387d908a",
+  "checkpoint_epoch": 252,
+  "seed_start": 880000,
+  "episodes": 100,
+  "shards": 4,
+  "episodes_per_shard": 25,
+  "physical_gpu": 4,
+  "sampler": "upstream",
+  "eta": 1.0,
+  "ddim_steps": 10,
+  "precision": "fp32_tf32_disabled",
+  "training": false,
+  "final_test_seeds_used": false,
+  "simulation_duration_s": 2,
+  "action_hz": 240,
+  "camera_hz": 30,
+  "started_unix": 1791335055.3936982,
+  "selection_note": "Previously used development seeds; not final independent test"
+}

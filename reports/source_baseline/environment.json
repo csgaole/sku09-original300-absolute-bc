@@ -1,0 +1,15 @@
+{
+  "python": "3.10.19 (main, Oct 21 2025, 16:43:05) [GCC 11.2.0]",
+  "torch": "2.10.0+cu128",
+  "cuda": "12.8",
+  "mujoco": "3.13.0",
+  "diffusers": "0.33.1",
+  "source_sha256": {
+    "src/evaluate_bc.py": "6f4014c974a3d90ecf752907fd2c058d9296e98eca2ad7fb9d2796f16297e647",
+    "src/bc_model.py": "292d7c9623e42e5635400ac97fd5ff06f3e470e666190dd143ca27146dad2f52",
+    "src/bc_sampling.py": "b7f20fc2d31e535394a5e3b450136ea21a1353f60463d97a8e1252587463d6e0",
+    "scripts/evaluate_frozen_bc_100.py": "08dab5ee58add95d03b33fcde7071b84c021f581b3c23af83511fda8e1523651",
+    "vendor/rl100/rl_100/policy/rl100_2d.py": "477d63d955d5fb2c5c978ca94aafcb240ff61890470f296ab8070fd1d11b793d",
+    "vendor/rl100/rl_100/unidpg/diffusion_policy/diffusers_patch/ddim_with_logprob_dpok.py": "b13d54fbcd1b10ec376f599c76c50481499a476c21db4607b1b364ceb0b98ba4"
+  }
+}

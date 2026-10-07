@@ -1,0 +1,32 @@
+{
+  "checkpoint_epoch": 252,
+  "checkpoint_step": 7308,
+  "checkpoint_sha256": "c899a348be831018b1903399e2ea858e130202f7bc2038408f8606e3387d908a",
+  "validation_loss": 0.013307319022715092,
+  "sampler": "upstream",
+  "eta": 1,
+  "ddim_steps": 10,
+  "successes": 98,
+  "episodes": 100,
+  "success_rate": 0.98,
+  "wilson95": [
+    0.9299882092714581,
+    0.9944980324498375
+  ],
+  "failure_counts": {
+    "drop": 0,
+    "wrong_face": 2,
+    "unsettled": 0
+  },
+  "failed_seeds": [
+    880037,
+    880095
+  ],
+  "seed_start": 880000,
+  "seed_end": 880099,
+  "device": "NVIDIA A100-SXM4-80GB",
+  "physical_gpu": 4,
+  "elapsed_s": 683.5610821247101,
+  "training_restarted": false,
+  "final_test_seeds_used": false
+}

@@ -1,0 +1,9 @@
+-r requirements.txt
+torch==2.10.0
+torchvision==0.25.0
+diffusers
+einops
+termcolor
+zarr<3
+hydra-core
+gdown
