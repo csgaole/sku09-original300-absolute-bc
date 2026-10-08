@@ -32,13 +32,6 @@ Source historical result: 98/100 with this exact checkpoint and sampler. New mig
 ## Verified migration result
 Historical 100 conditions: 98/100; fresh 100 conditions: 98/100. Historical per-episode success and failure reasons match source exactly (zero mismatches). Both groups: zero drops, two wrong-face failures. Median action-chunk inference 107 ms, P95 109 ms, exceeding the 33.3 ms camera/chunk interval: current multi-step sampling is not real-time at 30 Hz.
 
-## Expanded initialization evaluation
-See `reports/expanded_init_v1/REPORT.md` and `report.json`: 100 trials each, ±10mm/±5deg 98%, ±20mm/±10deg 93%, ±40mm/±20deg 75%, position-only ±20mm/±2deg 93%. All use the same box and unchanged BC.
-
-## Offline RL execution
-
-First-pass pipeline and limitations: [rl_stage2/README.md](rl_stage2/README.md). Active run: `runs/iterative_offline_v1`; qualified launch records: `reports/iterative_offline_v1_launch`.
-
 ## GitHub checkout with large payloads
 Model checkpoints and demonstrations use Git LFS. Install Git LFS, then run `git lfs install` before cloning and `git lfs pull` after cloning. Run `python scripts/verify_payload.py` to verify restored files. Clone the public repository with Git LFS to retrieve actual model and demonstration files.
 
